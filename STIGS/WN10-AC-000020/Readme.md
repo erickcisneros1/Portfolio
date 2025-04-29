@@ -1,25 +1,34 @@
-
 # Enforce Password History Policy - PowerShell Script
 
-This PowerShell script ensures that the "Enforce password history" security policy is set to retain the last **24 passwords** on Windows systems. It uses `secedit` to export and modify the local security policy, then re-applies the updated settings.
+This PowerShell script ensures that the **"Enforce password history"** setting is configured to **24** previous passwords. This helps meet compliance requirements such as [STIG-ID: WN10-AC-000020](https://public.cyber.mil/stigs/).
 
 ---
+
+## 🔒 Compliance Info
+
+- **STIG ID**: WN10-AC-000020
+- **Description**: Enforce password history must be configured to at least 24 passwords.
+- **Fix**: This script sets the correct value automatically using the built-in `secedit` utility.
+- **Impact**: Medium
+
 
 ## 📸 Before & After
 
 **Before**
 
-![Before](images/before.png)
+![Image](https://github.com/user-attachments/assets/b0749f41-f3ee-452b-bc15-db9b8b606f9a)
 
 **After**
 
-![After](images/after.png)
+![Image](https://github.com/user-attachments/assets/4a83bb08-c2fe-4e0a-a653-1d30b9ec7ffc)
+
+> Replace these placeholders with actual screenshots showing the policy before and after script execution.
 
 ---
 
 ## 🧠 Synopsis
 
-Ensures that the **Enforce password history** setting in Windows is configured to **24**, which aligns with [STIG-ID: WN10-AC-000020](https://public.cyber.mil/stigs/) requirements.
+This script configures the local security policy to retain the last 24 passwords using `secedit` and a temporary configuration export.
 
 ---
 
@@ -40,7 +49,28 @@ Ensures that the **Enforce password history** setting in Windows is configured t
     CVEs            : N/A
     Plugin IDs      : N/A
     STIG-ID         : WN10-AC-000020
+
+    COMPLIANCE INFO
+    ----------------
+    STIG ID       : WN10-AC-000020
+    Description   : Enforce password history must be configured to at least 24 passwords.
+    Impact        : Medium
+    Fix Text      : Configure the policy value for Computer Configuration ->
+                    Windows Settings -> Security Settings -> Account Policies ->
+                    Password Policy -> Enforce password history to 24 or more passwords remembered.
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\STIG-ID-WN10-AC-000020.ps1 
 #>
+
 
 # Export current security policy to a temp file
 $cfgFile = "$env:TEMP\secpol.cfg"
