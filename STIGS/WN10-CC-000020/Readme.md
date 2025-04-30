@@ -1,6 +1,6 @@
 # Disable IP Source Routing (IPv6)
 
-This PowerShell script configures the system to **disable IP source routing for IPv6** by setting the appropriate registry value, ensuring compliance with [STIG-ID: WN10-CC-000020](https://public.cyber.mil/stigs/).
+This PowerShell script configures the system to **disable IP source routing for IPv6** by setting the appropriate registry value, ensuring compliance with [STIG-ID: WN10-CC-000020](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r8.audit:8a9f4554f9e8f0402562c9698d6d54e9).
 
 ---
 
