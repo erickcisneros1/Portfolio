@@ -1,6 +1,6 @@
 # Configure Audit Policy for User Account Management (Failure Only)
 
-This PowerShell script ensures that **failure events** for **User Account Management** are audited according to [STIG-ID: WN10-AU-000035](https://public.cyber.mil/stigs/). It uses `auditpol` to apply the setting and enforces execution as an administrator.
+This PowerShell script ensures that **failure events** for **User Account Management** are audited according to [STIG-ID: WN10-AU-000035](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r3.audit:f21a6e6e56dc13943792d7d91e1dbe49). It uses `auditpol` to apply the setting and enforces execution as an administrator.
 
 ---
 
