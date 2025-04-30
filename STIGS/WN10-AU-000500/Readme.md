@@ -1,6 +1,6 @@
 # Set Maximum Size of Windows Application Event Log
 
-This PowerShell script ensures that the **maximum size of the Windows Application event log** is set to **32,768 KB (32 MB)** to comply with [STIG-ID: WN10-AU-000500](https://public.cyber.mil/stigs/). It modifies the Windows Registry accordingly.
+This PowerShell script ensures that the **maximum size of the Windows Application event log** is set to **32,768 KB (32 MB)** to comply with [STIG-ID: WN10-AU-000500](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v3r2.audit:2d31eb75c8522bee1690a2190d57848e). It modifies the Windows Registry accordingly.
 
 ---
 
