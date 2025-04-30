@@ -38,7 +38,7 @@ Disabling IP source routing helps prevent spoofing and packet redirection attack
 ```powershell
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+   Disabling IP source routing helps prevent spoofing and packet redirection attacks. This script enforces the **highest protection (value: 2)** for IPv6 routing.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
