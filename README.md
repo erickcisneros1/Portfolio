@@ -1,6 +1,6 @@
 # 🛡️ My STIG Compliance PowerShell Scripts
 
-Welcome to **My STIG Scripts** — a collection of PowerShell scripts designed to automate and enforce security settings based on [DISA STIG](https://public.cyber.mil/stigs/) requirements for Windows 10 systems.
+Welcome to **My STIG Scripts** — a collection of PowerShell scripts designed to automate and enforce security settings based on [DISA STIG](https://public.cyber.mil/stigs/) requirements for Windows systems.
 
 Each script targets a specific STIG ID and includes:
 
