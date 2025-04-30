@@ -38,7 +38,7 @@ This script configures the Windows audit policy to **log failure events** for **
 ```powershell
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This script configures the Windows audit policy to **log failure events** for **User Account Management** to comply with security audit requirements.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
