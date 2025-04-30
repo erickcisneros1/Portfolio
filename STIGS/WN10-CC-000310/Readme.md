@@ -1,6 +1,6 @@
 # 🚫 Disable User Control Over Installs
 
-This PowerShell script disables user control over Windows Installer installs, enforcing the configuration outlined in [STIG ID: WN10-CC-000310](https://public.cyber.mil/stigs/).
+This PowerShell script disables user control over Windows Installer installs, enforcing the configuration outlined in [STIG ID: WN10-CC-000310](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r8.audit:0553472cb9b0a2d600e4fd7353408f2e).
 
 ---
 
