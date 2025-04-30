@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This script configures the local security policy to retain the last 24 passwords using secedit and a temporary configuration export.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
