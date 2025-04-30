@@ -1,6 +1,6 @@
 # 🚫 Enable PowerShell Script Block Logging
 
-This PowerShell script enables PowerShell Script Block Logging, enforcing the configuration outlined in [STIG ID: WN10-CC-000326](https://public.cyber.mil/stigs/).
+This PowerShell script enables PowerShell Script Block Logging, enforcing the configuration outlined in [STIG ID: WN10-CC-000326](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r1.audit:e5e27010881fae4e82bdf4715db5c87c).
 
 ---
 
