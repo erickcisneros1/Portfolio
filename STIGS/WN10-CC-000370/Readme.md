@@ -1,6 +1,6 @@
 # 🚫 Disable Convenience PIN Sign-In
 
-This PowerShell script disables the convenience PIN sign-in for Windows, enforcing the configuration outlined in [STIG ID: WN10-CC-000370](https://public.cyber.mil/stigs/).
+This PowerShell script disables the convenience PIN sign-in for Windows, enforcing the configuration outlined in [STIG ID: WN10-CC-000370](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r5.audit:ca962dcadc1f0678ac7aa9dc255257ed).
 
 ---
 
