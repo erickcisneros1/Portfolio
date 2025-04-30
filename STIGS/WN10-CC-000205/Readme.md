@@ -1,6 +1,6 @@
 # Configure Windows Telemetry Level
 
-This PowerShell script enforces a compliant Windows telemetry level by modifying registry settings in accordance with [STIG ID: WN10-CC-000205](https://public.cyber.mil/stigs/).
+This PowerShell script enforces a compliant Windows telemetry level by modifying registry settings in accordance with [STIG ID: WN10-CC-000205](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r8.audit:45d0d370dc40bfffeb6eb1d400410574).
 
 ---
 
