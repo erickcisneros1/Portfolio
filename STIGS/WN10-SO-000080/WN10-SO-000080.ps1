@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This script configures the Windows login screen to display a legal notice caption, specifically the "DoD Notice and Consent Banner," by modifying the registry.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
