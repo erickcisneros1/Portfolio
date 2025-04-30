@@ -38,7 +38,7 @@ This script sets the inactivity timeout for interactive logons to 900 seconds (1
 ```powershell
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+   This script sets the inactivity timeout for interactive logons to 900 seconds (15 minutes) by modifying the Windows registry under both `Lsa` and `Winlogon` paths.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
