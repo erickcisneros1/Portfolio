@@ -1,6 +1,6 @@
 # 📜 Set Legal Notice Caption
 
-This PowerShell script sets the legal notice caption (title) that appears on the login screen, enforcing the configuration outlined in [STIG ID: WN10-SO-000080](https://public.cyber.mil/stigs/).
+This PowerShell script sets the legal notice caption (title) that appears on the login screen, enforcing the configuration outlined in [STIG ID: WN10-SO-000080](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r3.audit:e286f6b6b92d7ba04f425e088e2c7fcb).
 
 ---
 
