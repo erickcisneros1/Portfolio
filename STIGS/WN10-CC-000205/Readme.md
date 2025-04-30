@@ -38,7 +38,8 @@ This script ensures that telemetry data sent to Microsoft is limited by setting 
 ```powershell
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This script ensures that telemetry data sent to Microsoft is limited by setting the `AllowTelemetry` registry key. The default value here is `1` (Basic), but can be adjusted for stricter compliance (`0` for Security).
+
 
 .NOTES
     Author          : Erick Cisneros Ruballos
