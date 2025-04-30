@@ -1,6 +1,6 @@
 # ⏲️ Set Interactive Logon Inactivity Timeout
 
-This PowerShell script sets the inactivity timeout for interactive logons, enforcing the configuration outlined in [STIG ID: WN10-SO-000070](https://public.cyber.mil/stigs/).
+This PowerShell script sets the inactivity timeout for interactive logons, enforcing the configuration outlined in [STIG ID: WN10-SO-000070](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r1.audit:ad29a5ab9d36d93d7ef6089073c5318c).
 
 ---
 
