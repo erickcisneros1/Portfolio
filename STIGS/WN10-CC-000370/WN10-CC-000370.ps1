@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    This script disables the use of a PIN for logging into a domain, enforcing more secure login methods through registry modifications.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
