@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-     PowerShell Script Block Logging must be enabled to capture potentially harmful or unauthorized script activity.
+     This script enables PowerShell Script Block Logging by modifying the Windows registry to ensure that PowerShell blocks are logged for auditing and monitoring purposes.
 
 .NOTES
     Author          : Erick Cisneros Ruballos
