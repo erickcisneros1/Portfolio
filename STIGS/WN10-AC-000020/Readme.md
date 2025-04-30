@@ -1,6 +1,6 @@
 # Enforce Password History Policy - PowerShell Script
 
-This PowerShell script ensures that the **"Enforce password history"** setting is configured to **24** previous passwords. This helps meet compliance requirements such as [STIG-ID: WN10-AC-000020](https://public.cyber.mil/stigs/).
+This PowerShell script ensures that the **"Enforce password history"** setting is configured to **24** previous passwords. This helps meet compliance requirements such as [STIG-ID: WN10-AC-000020](https://www.tenable.com/audits/items/DISA_STIG_Windows_10_v2r9.audit:382a91c2e06200befc2e6cb33f3a2d76).
 
 ---
 
