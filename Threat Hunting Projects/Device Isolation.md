@@ -32,7 +32,6 @@ DeviceEvents
 | sort by Timestamp desc
 ```
 
-![KQL Query for Antivirus Detections](./screenshots/kql-query.png)
 
 - Example results showing detected files:
 
@@ -45,7 +44,7 @@ DeviceEvents
 - After confirming the virus alerts, the device was isolated using the MDE portal.
 - Isolation ensures the device can only communicate with the Defender service, blocking all other inbound/outbound traffic.
 
-![Action Center - Device Isolation](./screenshots/action-center-isolation.png)
+![Action Center - Device Isolation](./screenshots/action-center-isolation1.png)
 
 ---
 
