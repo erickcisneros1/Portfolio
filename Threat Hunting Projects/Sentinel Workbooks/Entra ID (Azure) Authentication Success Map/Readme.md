@@ -17,19 +17,6 @@ Visualizing this data on a world map helps in understanding legitimate user acce
 
 ---
 
-## 🖼️ Visuals
-
-**KQL Query Editor View:**
-*(This is where you would embed the image of your KQL query for successful sign-ins)*
-`[Image of KQL Query for Successful Sign-in Map - as provided in the prompt]`
-*Caption: KQL query in Azure Log Analytics for identifying and geolocating successful Azure AD sign-in events.*
-
-**Map Visualization Output:**
-*(This is where you would embed the image of your map visualization for successful sign-ins)*
-`[Image of Successful Sign-in Activity Map - as provided in the prompt]`
-*Caption: World map visualizing the geographic distribution of successful Azure AD sign-ins. Marker size often indicates the volume of logins from specific locations/users. The note "Results were limited to the first 100 rows" suggests the visualization is showing a sample of the most frequent login locations/identities.*
-
----
 
 ## ⚙️ How It Works: The KQL Query
 
