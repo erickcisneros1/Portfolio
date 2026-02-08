@@ -13,7 +13,22 @@ Each script targets a specific STIG ID and includes:
 
 ## 📁 Folder Structure
 
-Each script is named after the corresponding STIG ID for easy identification:
+Each script is named after the corresponding STIG ID for easy identification.
+
+---
+
+# 🤖 AI SOC Analyst
+
+An **AI-powered SOC analyst tool** that uses OpenAI’s API to automate threat hunting across Microsoft Defender for Endpoint (MDE), Azure AD, and Azure resource logs. It acts as an agentic copilot: it picks relevant log sources, runs KQL against Azure Log Analytics, and analyzes results with MITRE ATT&CK mapping and actionable recommendations.
+
+- 🧠 **Intelligent query selection** — Natural language → automatic choice of log tables and KQL
+- 📊 **Multi-source hunting** — MDE (process/network/logon/file/registry), SigninLogs, AuditLogs, Azure Activity, NSG flow logs
+- 🎯 **MITRE ATT&CK mapping** — Findings mapped to tactics, techniques, and sub-techniques
+- 🔒 **Guardrails** — Validated tables, fields, and models; structured JSON output and threat logging
+
+*[Watch the demo on YouTube](https://www.youtube.com/watch?v=ywIGodCko7c)*
+
+---
 
 # 🔍 Threat Hunting Scenarios
 
