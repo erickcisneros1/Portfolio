@@ -2,14 +2,6 @@
 
 An intelligent, AI-powered Security Operations Center (SOC) analyst tool that leverages OpenAI's API to perform automated threat hunting across Microsoft Defender for Endpoint (MDE), Azure Active Directory, and Azure resource logs.
 
-## 🎬 Demo
-
-This is a demo of the AI SOC Analyst tool.
-
-[![AI SOC Analyst Demo](https://img.youtube.com/vi/ywIGodCko7c/0.jpg)](https://www.youtube.com/watch?v=ywIGodCko7c)
-
-*[Watch the demo on YouTube](https://www.youtube.com/watch?v=ywIGodCko7c)*
-
 ## 🎯 Overview
 
 This tool acts as an agentic AI copilot for SOC analysts, intelligently selecting relevant log sources, querying Azure Log Analytics Workspace, and analyzing results to identify potential security threats. It maps findings to MITRE ATT&CK framework and provides actionable recommendations.
@@ -27,6 +19,14 @@ This tool acts as an agentic AI copilot for SOC analysts, intelligently selectin
 - **Guardrails**: Validates tables, fields, and models to prevent unauthorized queries
 - **Structured Output**: Returns findings in structured JSON format with confidence levels, IOCs, and recommendations
 - **Threat Logging**: Automatically logs all findings to `_threats.jsonl` for audit and analysis
+
+## 🎬 Demo
+
+This is a demo of the AI SOC Analyst tool.
+
+[![AI SOC Analyst Demo](https://img.youtube.com/vi/ywIGodCko7c/0.jpg)](https://www.youtube.com/watch?v=ywIGodCko7c)
+
+*[Watch the demo on YouTube](https://www.youtube.com/watch?v=ywIGodCko7c)*
 
 ## 🏗️ Architecture
 
@@ -186,3 +186,4 @@ This was a personal project through an internship I am part of, made for persona
 ## ⚠️ Disclaimer
 
 This tool is designed for authorized security operations only. Ensure you have proper authorization before querying log data. The authors are not responsible for misuse of this tool.
+
